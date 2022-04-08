@@ -24,3 +24,5 @@ target/
 
 **/*.Development.json
 /.vs
+/Viamus.Common.Library/Viamus.Common.Library.csproj.user
+/Viamus.Common.Library/Properties/PublishProfiles

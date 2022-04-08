@@ -13,13 +13,14 @@
 	<Description>There is a package with some Viamus Common Libraries used to 
 .NET 6 Development.
 It includes some entities model and repositories abstractions</Description>
-	<Copyright>MIT</Copyright>
+	<Copyright>Viamus Projects</Copyright>
 	<PackageProjectUrl>https://github.com/viamus/Viamus.Common</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/viamus/Viamus.Common</RepositoryUrl>
 	<RepositoryType>git</RepositoryType>
-	<PackageTags>Common Library</PackageTags>
+	<PackageTags>Entity, Repository Abastraction</PackageTags>
 	<PackageReleaseNotes>Entity base model and repository pattern abstraction</PackageReleaseNotes>
-	<PackageIcon>v1.png</PackageIcon>
+	<PackageReadmeFile></PackageReadmeFile>
+	<PackageLicenseFile>D:\Viamus\Viamus.Common\LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
 </Project>
