@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<LangVersion>10</LangVersion>
+	<PackageId>Viamus.Common.Library</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Viamus</Authors>
+	<Company>Viamus</Company>
+	<Product>Viamus.Common.Library</Product>
+	<Description>There is a package with some Viamus Common Libraries used to 
+.NET 6 Development.
+It includes some entities model and repositories abstractions</Description>
+	<Copyright>MIT</Copyright>
+	<PackageProjectUrl>https://github.com/viamus/Viamus.Common</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/viamus/Viamus.Common</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
+	<PackageTags>Common Library</PackageTags>
+	<PackageReleaseNotes>Entity base model and repository pattern abstraction</PackageReleaseNotes>
+	<PackageIcon>v1.png</PackageIcon>
+  </PropertyGroup>
+
+</Project>

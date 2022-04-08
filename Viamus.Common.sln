@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viamus.Common.Library", "Viamus.Common.Library\Viamus.Common.Library.csproj", "{04758C1C-1F77-47E1-B186-A8F151DE3997}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viamus.Common.Library.Mongo", "Viamus.Common.Library.Mongo\Viamus.Common.Library.Mongo.csproj", "{9887532A-8DFE-43C6-AA39-65ED032A0977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB4654CA-C203-474B-A05E-E695B23C2AD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D303B11C-215A-437A-9D2B-47B86FDC0BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viamus.Common.Library.Tests", "Viamus.Common.Library.Tests\Viamus.Common.Library.Tests.csproj", "{AA8D1001-9D7B-4C4F-BF63-A951BC107D41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04758C1C-1F77-47E1-B186-A8F151DE3997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04758C1C-1F77-47E1-B186-A8F151DE3997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04758C1C-1F77-47E1-B186-A8F151DE3997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04758C1C-1F77-47E1-B186-A8F151DE3997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9887532A-8DFE-43C6-AA39-65ED032A0977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9887532A-8DFE-43C6-AA39-65ED032A0977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9887532A-8DFE-43C6-AA39-65ED032A0977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9887532A-8DFE-43C6-AA39-65ED032A0977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8D1001-9D7B-4C4F-BF63-A951BC107D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8D1001-9D7B-4C4F-BF63-A951BC107D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8D1001-9D7B-4C4F-BF63-A951BC107D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8D1001-9D7B-4C4F-BF63-A951BC107D41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{04758C1C-1F77-47E1-B186-A8F151DE3997} = {AB4654CA-C203-474B-A05E-E695B23C2AD7}
+		{9887532A-8DFE-43C6-AA39-65ED032A0977} = {AB4654CA-C203-474B-A05E-E695B23C2AD7}
+		{AA8D1001-9D7B-4C4F-BF63-A951BC107D41} = {D303B11C-215A-437A-9D2B-47B86FDC0BFE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAAE7C4F-FB75-4448-8718-E22A78A8ABFD}
+	EndGlobalSection
+EndGlobal
