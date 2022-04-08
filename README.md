@@ -1,6 +1,7 @@
 # Viamus.Common
 ## _Common library to .NET 6 development_
 
+![Licence](https://img.shields.io/github/license/viamus/Viamus.Common) ![Licence](https://img.shields.io/github/issues/viamus/Viamus.Common)  ![Build](https://github.com/viamus/viamus.common/actions/workflows/dotnet.yml/badge.svg?branch=main) ![CodeQL](https://github.com/viamus/viamus.common/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)
 
 
 Viamus.Common.Library is a library containing some classes that helps .net 6 development.
