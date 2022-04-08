@@ -3,14 +3,22 @@
 using FluentAssertions;
 using System;
 using System.Threading.Tasks;
+using Viamus.Common.Library.Entities;
 using Xunit;
 
 public class EntityTest
 {
+    private class EntityMock : Entity
+    {
+        public EntityMock() : base() { }
+
+        public EntityMock(Guid id) : base(id) { }
+    }
+
     [Fact]
     public Task DefaultConstructor()
     {
-        var entity = EntitiesMock.GetEntity();
+        var entity = new EntityMock();
 
         entity.Id.Should().NotBe(Guid.Empty);
         entity.InsertedAt.Date.Should().Be(DateTime.Now.Date);
@@ -24,7 +32,7 @@ public class EntityTest
     {
         var id = Guid.NewGuid();
 
-        var entity = EntitiesMock.GetEntity(id);
+        var entity = new EntityMock(id);
 
         entity.Id.Should().Be(id);
         entity.InsertedAt.Date.Should().Be(DateTime.Now.Date);

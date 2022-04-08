@@ -1,6 +1,7 @@
 ﻿namespace Viamus.Common.Library.Mongo;
 
 using Microsoft.Extensions.DependencyInjection;
+using System.Diagnostics.CodeAnalysis;
 using Viamus.Common.Library.Entities;
 using Viamus.Common.Library.Mongo.Context;
 using Viamus.Common.Library.Mongo.Entities;
@@ -8,6 +9,7 @@ using Viamus.Common.Library.Mongo.Repository;
 using Viamus.Common.Library.Repository;
 
 
+[ExcludeFromCodeCoverage]
 public static class ConfigureBindingsDependencyInjection
 {
     /// <summary>
