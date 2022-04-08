@@ -26,3 +26,5 @@ target/
 /.vs
 /Viamus.Common.Library/Viamus.Common.Library.csproj.user
 /Viamus.Common.Library/Properties/PublishProfiles
+/Viamus.Common.Library.Mongo/Properties/PublishProfiles
+/Viamus.Common.Library.Mongo/Viamus.Common.Library.Mongo.csproj.user

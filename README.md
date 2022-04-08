@@ -28,6 +28,9 @@ Viamus.Common.Library is a library containing some classes that helps .net 6 dev
 
 Viamus.Common projects require .NET 6 version to run.
 
+For just library: `Install-Package Viamus.Common.Library -Version 1.0.1`
+
+For Mongodb repository library: `Install-Package Viamus.Common.Library.Mongo -Version 1.0.1`
 
 ## License
 

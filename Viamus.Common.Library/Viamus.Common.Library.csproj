@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 	<LangVersion>10</LangVersion>
 	<PackageId>Viamus.Common.Library</PackageId>
-	<Version>1.0.0</Version>
+	<Version>1.0.1</Version>
 	<Authors>Viamus</Authors>
 	<Company>Viamus</Company>
 	<Product>Viamus.Common.Library</Product>
@@ -17,10 +17,8 @@ It includes some entities model and repositories abstractions</Description>
 	<PackageProjectUrl>https://github.com/viamus/Viamus.Common</PackageProjectUrl>
 	<RepositoryUrl>https://github.com/viamus/Viamus.Common</RepositoryUrl>
 	<RepositoryType>git</RepositoryType>
-	<PackageTags>Entity, Repository Abastraction</PackageTags>
+	<PackageTags>Entity, Repository, Abstraction</PackageTags>
 	<PackageReleaseNotes>Entity base model and repository pattern abstraction</PackageReleaseNotes>
-	<PackageReadmeFile></PackageReadmeFile>
-	<PackageLicenseFile>D:\Viamus\Viamus.Common\LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
 </Project>
